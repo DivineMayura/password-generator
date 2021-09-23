@@ -15,7 +15,7 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-function generatePassword(){
+function generatePassword(){  //main function
 
 
 
@@ -55,14 +55,14 @@ function generatePassword(){
   // console.log(passwordLength);   used for debugging
   // console.log(charset);          used for debugging
   
-  var createdPassword = "";  
+  var createdPassword = "";  //placeholder for created password
 
-  for (i=0; i < passwordLength; i++) {
-    createdPassword += charset.charAt(Math.floor(Math.random() * charset.length));
-    
+  for (i=0; i < passwordLength; i++) {  //for loop loops 
+    createdPassword += charset.charAt(Math.floor(Math.random() * charset.length)); //random character determined with math.random using the charset.length as the maximum height.
+    // this gets the empty createdPassword string and adds a random letter from the charset
   }  
   
-  console.log(createdPassword);
+  //console.log(createdPassword);  //used for debugging
   
-  return createdPassword;
+  return createdPassword; //returns created password
 }
