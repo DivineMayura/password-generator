@@ -17,10 +17,7 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword(){  //main function
 
-
-
-
-  //this
+  //this uses user imputed data to determine the amout of characters going to be used.
   questionAmmt = prompt("howmany characters would you like?", "min 8  max 128");
 
   var passwordLength = parseInt(questionAmmt);
