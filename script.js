@@ -34,7 +34,7 @@ var generateBtn = document.querySelector("#generate");
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  var passwordText = document.querySelector("#password");  //the location the returned password will go
 
     passwordText.value = password;
 }
@@ -91,5 +91,5 @@ function generatePassword(){  //main function
   
   //console.log(createdPassword);  //used for debugging
   
-  return createdPassword; //returns created password
+  return createdPassword; //returns created password to passwordText.value to be displayed
 }
