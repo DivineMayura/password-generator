@@ -3,9 +3,11 @@
 //
 // I need the generator to start when the user hits a button
 // 
+//It will need to prompt the user to input a number
+//this number will be the length of the password
+// the computer will check to make sure the length is between the desired numbers
 // 
-// 
-// 
+// then the computer will ask the user if they'd like certain characters to be included in the generation of their password
 // 
 // 
 // 
