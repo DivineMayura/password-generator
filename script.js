@@ -8,12 +8,16 @@
 // the computer will check to make sure the length is between the desired numbers
 // 
 // then the computer will ask the user if they'd like certain characters to be included in the generation of their password
+// if the user hits yes, the character set will be added
+//if the user hits no, the character set will not be added.
+//
+// after a series of prompts asking if the user wants to include multiple character sets
+// the computer will add the character sets all into one pile
 // 
+//the computer will then pull random characters out of the pile to begin constructing the password
+//the computer will stop looping the random characters into the generated password once the length has been hit
 // 
-// 
-// 
-// 
-// 
+// after it stops it will display the generated password for the user to copy.
 // 
 // 
 
