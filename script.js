@@ -1,3 +1,27 @@
+
+
+//
+// I need the generator to start when the user hits a button
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+
+
+
+
+
+
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
